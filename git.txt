@@ -1,0 +1,11 @@
+int main()
+{
+	int n = 1,m=1;
+	int p, q;
+	p = n++;
+	q = ++m;
+	cout << "p=" << p << endl;
+	cout << "q=" << q << endl;
+	system("pause");
+	return 0;
+}
